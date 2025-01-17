@@ -82,8 +82,8 @@ GET /api/branches/branch?ifsc=SBIN0001
 ### Testing
 The application includes unit tests using Python's unittest framework. These tests check the functionality of the endpoints and ensure that the API behaves correctly.
 To run the tests:
-    ```bash
-    python -m unittest test_app.py
+   ```bash
+   python -m unittest test_app.py
 
 ### Performance and Duration
 - The code includes middleware that tracks the duration of each request and adds an X-Duration header to the response. This is useful for monitoring the performance of the API.
