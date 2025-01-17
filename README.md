@@ -46,6 +46,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 ### Running the Application
 Run the Flask application by executing:
 
+
     ```bash
     python app.py
 
@@ -57,8 +58,6 @@ This will start the Flask server on http://127.0.0.1:5000/.
 Returns a welcome message.
 Example response:
 json
-Copy
-Edit
 {
     "message": "Welcome to the Bank API!"
 }
@@ -76,6 +75,7 @@ Edit
 5. GET /api/branches/branch
 - Fetches details of a branch based on provided filters like ifsc, bank_id, or branch name.
 - Example request:
+
 http
 GET /api/branches/branch?ifsc=SBIN0001
 
@@ -86,7 +86,7 @@ To run the tests:
     ```bash
     python -m unittest test_app.py
 
-###Performance and Duration
+### Performance and Duration
 - The code includes middleware that tracks the duration of each request and adds an X-Duration header to the response. This is useful for monitoring the performance of the API.
 - The before_request and after_request methods in app.py are responsible for calculating the time taken by each request.
 
