@@ -36,3 +36,5 @@ Thumbs.db
 
 .bank_branches.csv
 .banks.csv
+
+.gitignore
