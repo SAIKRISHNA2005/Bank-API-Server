@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+
+# Python test cache
+.pytest_cache/
+
+# Virtual environment
+venv/
+
+# Instance directory
+instance/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Environment-specific files
+.env
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+
+.Procfile
+
+.bank_branches.csv
+.banks.csv

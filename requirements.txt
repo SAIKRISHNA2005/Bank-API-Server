@@ -1,0 +1,4 @@
+Flask
+Flask-SQLAlchemy
+marshmallow-sqlalchemy
+psycopg2-binary
