@@ -82,7 +82,7 @@ GET /api/branches/branch?ifsc=SBIN0001
 ### Testing
 The application includes unit tests using Python's unittest framework. These tests check the functionality of the endpoints and ensure that the API behaves correctly.
 To run the tests:
-    ```bash 
+    ```bash
     python -m unittest test_app.py
 
 ### Performance and Duration
