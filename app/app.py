@@ -4,6 +4,7 @@ from models import db, Bank, Branch
 from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
 from werkzeug.exceptions import HTTPException
 import time  
+import os
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Saikrishna2005@localhost:5432/bankdb'
