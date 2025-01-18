@@ -45,10 +45,9 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 ### Running the Application
 Run the Flask application by executing:
-
-
-    ```bash
-    python app.py
+   
+         ```bash
+      python app.py
 
 This will start the Flask server on http://127.0.0.1:5000/.
 
@@ -63,7 +62,7 @@ json
 }
 
 2. GET /api/branches
-- Fetches all branches.
+- Fetches all   branches.
 - Optionally accepts a q query parameter to search for branches by various fields like branch, address, city, district, or state.
 
 3. GET /api/branches/autocomplete
@@ -82,8 +81,10 @@ GET /api/branches/branch?ifsc=SBIN0001
 ### Testing
 The application includes unit tests using Python's unittest framework. These tests check the functionality of the endpoints and ensure that the API behaves correctly.
 To run the tests:
-      ```bash
-      python -m unittest test_app.py
+
+       ```bash
+    python -m unittest test_app.py
+
 
 ### Performance and Duration
 - The code includes middleware that tracks the duration of each request and adds an X-Duration header to the response. This is useful for monitoring the performance of the API.
